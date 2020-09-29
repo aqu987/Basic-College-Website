@@ -1,0 +1,143 @@
+.page{
+	width:1500px;
+	height:1000px;
+	border-style:groove;
+}
+.headerpart{
+	width:1500px;
+	height:150px;
+	border-style:groove;
+	background-color:red;
+	background-image:url("");
+}
+.linkspart{
+	width:1500px;
+	height:30px;
+	border-style:groove;
+	margin-top:7px;
+	background-color:rgb(12,100,198);
+}
+.linkspart a{
+	color:white;
+	padding-top:20px;
+	font-size: 25px;
+}
+.linkspart a:hover{
+	
+	color:yellow;
+	
+}
+.bodypart{
+	width:1500px;
+	height:800px;
+	border-style:groove;
+	margin-top:7px;
+	background-color: white;
+}
+.bodypart .imagepart{
+	width:800px;
+	height:300px;
+	margin-top:20px;
+	margin-left:40px;
+	border-style:groove;
+	display:inline-block;
+	background-image: url(/ACM media posts/aissmsioit.jpg)
+	
+}
+.bodypart .newspart{
+	width: 500px;
+	height: 600px;
+	border-style:groove;
+	float:right;
+	background-color: yellow;
+}
+.bodypart .newspart h2{
+	color:green;
+	text-align: center
+}
+.bodypart .newspart .news{
+	width:430px;
+	height:500px;
+	
+	margin-left:30px;
+}
+.bodypart .newspart .news h2{
+	color:red;
+	
+}
+.bodypart .newspart .news p{
+	font-family: sans-serif;
+}
+.page .headerpart h1{
+	font-family:serif;
+	text-align: center;
+	color: white;
+	font-size: 50px;
+}
+.page .headerpart h2{
+	font-family:serif;
+	text-align: center;
+	color: white;
+	margin-top: -35px;
+}
+table, th, td{
+	border:1px solid black;
+}
+.stform{
+	margin-left: 70px; 
+    font-weight: bold ; 
+     
+    clear: left; 
+    width: 100px; 
+    text-align: left; 
+    margin-right: 10px; 
+    font-family:sans-serif,bold, Arial, Helvetica; 
+    font-size:20px; 
+}
+.stform h3{
+	font-family: monospace;
+	text-align: center;
+}
+body{
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcROWLOzhbrlpiKE5_BeipvAEGaxDHruNbj0Sw&usqp=CAU")
+	
+	
+	
+}
+.hompg a{
+	font-family: sans-serif;
+	font-size: 30px;
+}
+.hompg a:hover{
+	color:yellow;
+}
+.info h2{
+	font-family: Helvetica;
+	font-size: 30px;
+	color: green;
+	text-align: center;
+}
+.info h3{
+	
+	
+	color:red;
+}
+#customers{
+	font-family: serif;
+	border-collapse: collapse;
+	width:100%;
+}
+#customer td, #customer th{
+	border:1px solid #ddd;
+	padding:8px;
+}
+#customer th{
+	padding-top:12px;
+	padding-bottom:12px;
+	text-align:left;
+	background-color: #4CAF50;
+	color:white;
+}
+#customer tr:hover{
+	background-color: #ddd;
+}
