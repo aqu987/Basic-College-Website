@@ -1,17 +1,18 @@
 .page{
-	width:1500px;
-	height:1000px;
-	border-style:groove;
+	width:100%;
+	height:100%;
+	padding: 0.5%;
 }
 .headerpart{
-	width:1500px;
+	margin-top: 0;
+	width:100%;
 	height:150px;
 	border-style:groove;
 	background-color:red;
 	background-image:url("");
 }
 .linkspart{
-	width:1500px;
+	width:100%;
 	height:30px;
 	border-style:groove;
 	margin-top:7px;
@@ -19,6 +20,7 @@
 }
 .linkspart a{
 	color:white;
+	text-decoration: none;
 	padding-top:20px;
 	font-size: 25px;
 }
@@ -28,24 +30,26 @@
 	
 }
 .bodypart{
-	width:1500px;
+	width:100%;
 	height:800px;
 	border-style:groove;
 	margin-top:7px;
 	background-color: white;
 }
 .bodypart .imagepart{
-	width:800px;
+	width: 50%;
+	float: left;
 	height:300px;
 	margin-top:20px;
-	margin-left:40px;
+	margin-left:10px;
 	border-style:groove;
-	display:inline-block;
+	/* display:inline-block; */
 	background-image: url(/ACM media posts/aissmsioit.jpg)
 	
 }
 .bodypart .newspart{
-	width: 500px;
+	width: 36.5%;
+	float: right;
 	height: 600px;
 	border-style:groove;
 	float:right;
