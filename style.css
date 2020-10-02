@@ -83,25 +83,13 @@
 table, th, td{
 	border:1px solid black;
 }
-.stform{
-	margin-left: 70px; 
-    font-weight: bold ; 
-     
-    clear: left; 
-    width: 100px; 
-    text-align: left; 
-    margin-right: 10px; 
-    font-family:sans-serif,bold, Arial, Helvetica; 
-    font-size:20px; 
-}
+
 .stform h3{
 	font-family: monospace;
 	text-align: center;
 }
 body{
 	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcROWLOzhbrlpiKE5_BeipvAEGaxDHruNbj0Sw&usqp=CAU")
-	
-	
 	
 }
 .hompg a{
